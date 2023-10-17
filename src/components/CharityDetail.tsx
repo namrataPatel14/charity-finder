@@ -19,6 +19,7 @@ const CharityDetail: React.FC = () =>  {
  
   useEffect(() => {
     fetchCharity()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const fetchCharity = async () => {
